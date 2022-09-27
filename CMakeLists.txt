@@ -25,5 +25,5 @@ if(UNIX)
   endforeach()
 endif()
 
-add_subdirectory(lib)
+add_subdirectory(alice)
 add_subdirectory(src)
