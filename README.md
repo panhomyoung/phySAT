@@ -13,22 +13,5 @@ mkdir build
 cd build
 cmake ..
 make
-./build/bin/phySAT
+./bin/phySAT
 ```
-
-You can specify the path of the complier by extending *cmake* as follows:
-```bash
-cmake -DCMAKE_CXX_COMPILER=/path/to/c++-compiler ..
-```
-
-Please execute 
-```bash
-git submodule update --recursive
-```
-if the third-party libraries are updated.
-
-Then, run
-```bash
-git pull origin master
-```
-for the main repository updates.
