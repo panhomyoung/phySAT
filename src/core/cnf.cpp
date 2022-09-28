@@ -165,6 +165,14 @@ namespace phySAT
 
     void stp_result(vector<string> &tt, vector<int> &expression)
     {
+      cout << "tt : " << endl;
+      for (auto x :tt){
+        cout << x << endl; 
+      }
+      cout << "expression : "<< endl;
+      for (auto x :expression) {
+        cout <<x <<endl;
+      } 
       int v = expression[0];
       string temp(v, '2');
       expression.erase(expression.begin(), (expression.begin() + 2));

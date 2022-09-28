@@ -10,8 +10,8 @@
  * @since  2022/09/28
  */
 
-#ifndef STP_HPP
-#define STP_HPP
+#ifndef CALC_HPP
+#define CALC_HPP
 
 #include "../core/matrix_calc.hpp"
 #include <alice/alice.hpp>
@@ -135,7 +135,7 @@ namespace alice
         int strategy = 0;
     };
 
-    ALICE_ADD_COMMAND(stp, "Matrix Calculation")
+    ALICE_ADD_COMMAND(calc, "Matrix Calculation")
 
 }
 
