@@ -2,7 +2,9 @@
 
 This is a SAT and AllSAT solver based on Semi-Tonser Product of matrices.
 It can solve instances described in the conjunctive normal form (CNF) as well as circuit form.
+
 The SAT part is same as normal SAT solver.
+
 The implementation of the AllSAT part differs from incremental enumeration because we do not add blocking conditions for existing solutions, but rather compute the matrices to obtain all the solutions in one pass.
 
 ## Requirements
