@@ -24,5 +24,5 @@
  */
 
 #include "commands/cnf.hpp"
-
+#include "commands/matrix_calc.hpp"
 ALICE_MAIN( phySAT )
