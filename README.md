@@ -20,3 +20,8 @@ cmake ..
 make
 ./bin/phySAT
 ```
+## Useage
+```bash
+help  // all useful commands
+1. cnf -f xx.cnf // CNF-based AllSAT solver, the benchmark is in <benchmark> 
+```
