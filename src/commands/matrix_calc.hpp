@@ -135,7 +135,7 @@ namespace alice
         int strategy = 0;
     };
 
-    ALICE_ADD_COMMAND(calc, "Matrix Calculation")
+    ALICE_ADD_COMMAND(stp, "Matrix Calculation")
 
 }
 
