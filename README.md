@@ -1,6 +1,6 @@
 # phySAT
 
-This is a SAT and AllSAT solver based on Semi-Tonser Product of matrices.
+This is a SAT and AllSAT solver based on Semi-Tenser Product of matrices.
 It can solve instances described in the conjunctive normal form (CNF) as well as circuit form.
 
 The SAT part is same as normal SAT solver.
